@@ -1,0 +1,35 @@
+# CHAPTER 2: VARIABLES AND SIMPLE DATA TYPES
+------------------------------------------------------------------------------------------------------------------------
+VARIABLES INTRO
+- variable names can contain only letters, numbers, and underscores --> they can start with a letter or underscore but NOT a number
+- don't use Python keywords as variables names --> use a Python keyword reference to look at words to avoid
+- when an error occurs the Python interpreter provides a "traceback" --> a "traceback" is a record of where the interpreter ran into trouble when trying to execute your code
+------------------------------------------------------------------------------------------------------------------------
+CHANGING CASE IN STRING WITH METHODS
+- a METHOD is an action that Python can perform on a piece of data (see "names.py")
+- the dot (.) after 'name' in "name.title()" tells python to act on the 'title()' method on 'name'
+- MORE METHODS FOR STRINGS:
+    * .upper() --> captializes all letters
+    * .lower() --> lower-cases all letters, this method is especially useful for storing data. Users capitalizing may be shaky, so convert all inputs to lower-case for easier storage
+- "f-strings" --> format the string by replacing the name of any variable in braces with its value (see "names.py")
+------------------------------------------------------------------------------------------------------------------------
+ADDING WHITESPACE TO STRINGS WITH TABS OR NEWLINES
+- "\t"  --> is a tab
+- "\n" --> starts a new line
+- "\n\t" --> begins a new line with a tab
+------------------------------------------------------------------------------------------------------------------------
+STRIPPING WHITESPACE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
