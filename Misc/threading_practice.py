@@ -1,14 +1,10 @@
 
-prompt = "\nI am a parrot:"
-prompt += "\nEnter 'quit' to end the program"
+current_number = 0
+while current_number < 10:
+    current_number += 1
+    if current_number % 2 == 0:
+        continue
 
-active = True
-while active:
-    message = input(prompt)
-
-    if message == "quit":
-        active = False
-    else:
-        print(message)
+    print(current_number)
 
 
